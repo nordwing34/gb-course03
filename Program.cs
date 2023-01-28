@@ -1,3 +1,3 @@
-﻿Console.WriteLine("Привет, мир!");
+﻿Console.WriteLine("Привет, мир!!");
 
 // Задание 1
