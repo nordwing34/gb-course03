@@ -5,9 +5,9 @@ a = 5; b = 7 -> max = 7
 a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3
 */
-
-string aStr = Console.ReadLine();
-string bStr = Console.ReadLine();
+/*
+string? aStr = Console.ReadLine();
+string? bStr = Console.ReadLine();
 
 int a = Convert.ToInt32(aStr);
 int b = Convert.ToInt32(bStr);
@@ -19,7 +19,7 @@ else
 	max = b;
 
 Console.Write("Максимальное число: " + max);
-
+*/
 
 
 // Задание 2 **********************************************************************************
@@ -30,14 +30,15 @@ Console.Write("Максимальное число: " + max);
 22 3 9 -> 22
 */
 
+/*
 // Вводим три числа
 Console.WriteLine("Введите три числа");
 Console.Write("Первое число: ");
-string n1Str = Console.ReadLine();
+string? n1Str = Console.ReadLine();
 Console.Write("Второе число: ");
-string n2Str = Console.ReadLine();
+string? n2Str = Console.ReadLine();
 Console.Write("Третье число: ");
-string n3Str = Console.ReadLine();
+string? n3Str = Console.ReadLine();
 
 // Переводим полученные символы в числовую форму
 int n1 = Convert.ToInt32(n1Str);
@@ -50,7 +51,9 @@ if(n2 > max) {max = n2;}
 if(n3 > max) {max = n3;}
 
 // Выводим результат
-Console.Write("Максимальное число: " + max);
+// Console.Write("Максимальное число: " + max);
+Console.Write($"Максимальное число: {max}");
+*/
 
 
 // Задание 3 **********************************************************************************
@@ -61,6 +64,7 @@ Console.Write("Максимальное число: " + max);
 7 -> нет
 */
 
+/*
 Console.WriteLine("Введите число");
 string numberStr = Console.ReadLine();
 int number = Convert.ToInt32(numberStr);
@@ -69,7 +73,7 @@ if(res != 0)
 	Console.WriteLine("Число нечётное");
 else
 	Console.WriteLine("Число чётное");
-
+*/
 
 
 // Задание 4 **********************************************************************************
@@ -79,6 +83,7 @@ else
 8 -> 2, 4, 6, 8
 */
 
+/*
 Console.WriteLine("Введите число N");
 int number = Convert.ToInt32(Console.ReadLine());
 if(number > 0) {
@@ -90,5 +95,5 @@ if(number > 0) {
 } else {
 	Console.WriteLine("Введите число больше нуля");
 }
-
+*/
 
